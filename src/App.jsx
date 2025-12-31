@@ -3,12 +3,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Greeting from './Greeting';
-import Counter from './Counter';
+import Count from './Count';
 
 function App(){
   return(
     <div className="App">
-      <Counter />
+      <Count />
       <Greeting name="John" age={25} />
       <h1>Hello World!</h1>
       <h2>How are you?</h2>
