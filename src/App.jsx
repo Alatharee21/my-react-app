@@ -4,11 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Greeting from './Greeting';
 import Count from './Count';
+import Car4 from './Expression';
 
 function App(){
   return(
     <div className="App">
       <Count />
+      <Car4 />
       <Greeting name="John" age={25} />
       <h1>Hello World!</h1>
       <h2>How are you?</h2>
