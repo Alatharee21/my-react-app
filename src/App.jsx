@@ -5,6 +5,7 @@ import './App.css'
 import Greeting from './Greeting';
 import Count from './Count';
 import Car4 from './Expression';
+import Cclass from './Attributes';
 
 function App(){
   return(
@@ -15,6 +16,7 @@ function App(){
       <h1>Hello World!</h1>
       <h2>How are you?</h2>
       <button>Click</button>
+      <Cclass />
     </div>
   )
 }
