@@ -17,7 +17,8 @@ function Cclass(){
         c = "Backnana";
     }
 
-    //b < 20 ? "Groundnut" : "Beans";
+    const d = 5;
+
 
     return(
         <>
@@ -27,6 +28,7 @@ function Cclass(){
         <div><button onClick={myFunc} disabled>Click me  mfkr</button></div>
         <button onClick={myFunc}>Not disabled</button>
         <h4>{c}</h4>
+        <h5>{(d) < 3 ? "Groundnut" : "Beans"}</h5>
         </>
     )
 }

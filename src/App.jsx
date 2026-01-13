@@ -6,10 +6,12 @@ import Greeting from './Greeting';
 import Count from './Count';
 import Car4 from './Expression';
 import Cclass from './Attributes';
+import Cobbler from './Component';
 
 function App(){
   return(
     <div className="App">
+      <Cobbler />
       <Count />
       <Car4 />
       <Greeting name="John" age={25} />
