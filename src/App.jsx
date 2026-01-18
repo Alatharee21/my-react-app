@@ -7,10 +7,12 @@ import Count from './Count';
 import Car4 from './Expression';
 import Cclass from './Attributes';
 import Cobbler from './Component';
+import Car from './ReactClassComponent';
 
 function App(){
   return(
     <div className="App">
+      <Car />
       <Cobbler />
       <Count />
       <Car4 />
