@@ -8,10 +8,16 @@ import Car4 from './Expression';
 import Cclass from './Attributes';
 import Cobbler from './Component';
 import Car from './ReactClassComponent';
+import Vehicle from './ReactProps';
 
 function App(){
+  const x = "expensive";
+  let y = [1964, 1965, 1966];
+  let z = {name: "Ford", model: "Mustang"};
+
   return(
     <div className="App">
+      <Vehicle size={y[0]} color={z.name} year={1999} value={x} />
       <Car />
       <Cobbler />
       <Count />
