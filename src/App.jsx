@@ -9,6 +9,7 @@ import Cclass from './Attributes';
 import Cobbler from './Component';
 import Car from './ReactClassComponent';
 import Vehicle from './ReactProps';
+import Profile from './DProps';
 
 function App(){
   const x = "expensive";
@@ -17,6 +18,7 @@ function App(){
 
   return(
     <div className="App">
+      <Profile name="Rasheed"  year={27} state="Nasarawa" language="Solidity and JavaScript language" />
       <Vehicle size={y[0]} color={z.name} year={1999} value={x} />
       <Car />
       <Cobbler />
