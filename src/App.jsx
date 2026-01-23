@@ -10,6 +10,8 @@ import Cobbler from './Component';
 import Car from './ReactClassComponent';
 import Vehicle from './ReactProps';
 import Profile from './DProps';
+import MainBox from './ReactPropsChildren';
+import Football from './ReactEvent';
 
 function App(){
   const x = "expensive";
@@ -29,6 +31,8 @@ function App(){
       <h2>How are you?</h2>
       <button>Click</button>
       <Cclass />
+      <MainBox />
+      <Football />
     </div>
   )
 }
