@@ -12,6 +12,10 @@ import Vehicle from './ReactProps';
 import Profile from './DProps';
 import MainBox from './ReactPropsChildren';
 import Football from './ReactEvent';
+import Goal from './ReactCR';
+import Goall from './ReactCR';
+import Bus from './ReactCR';
+import Dpp from './Excersise';
 
 function App(){
   const x = "expensive";
@@ -33,6 +37,10 @@ function App(){
       <Cclass />
       <MainBox />
       <Football />
+      <Goal isGoal={!true} />
+      <Bus Brand="" brand="Changre" />
+      <Goall isGoal={true} />
+      <Dpp />
     </div>
   )
 }
