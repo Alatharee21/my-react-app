@@ -16,6 +16,7 @@ import Goal from './ReactCR';
 import Goall from './ReactCR';
 import Bus from './ReactCR';
 import Dpp from './Excersise';
+import MyCars from './ReacList';
 
 function App(){
   const x = "expensive";
@@ -41,6 +42,7 @@ function App(){
       <Bus Brand="" brand="Changre" />
       <Goall isGoal={true} />
       <Dpp />
+      <MyCars />
     </div>
   )
 }
