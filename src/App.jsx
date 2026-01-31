@@ -17,6 +17,7 @@ import Goall from './ReactCR';
 import Bus from './ReactCR';
 import Dpp from './Excersise';
 import MyCars from './ReacList';
+import MyForm from './ReactForm';
 
 function App(){
   const x = "expensive";
@@ -25,6 +26,7 @@ function App(){
 
   return(
     <div className="App">
+      <MyForm />
       <Profile name="Rasheed"  year={27} state="Nasarawa" language="Solidity and JavaScript language" />
       <Vehicle size={y[0]} color={z.name} year={1999} value={x} />
       <Car />

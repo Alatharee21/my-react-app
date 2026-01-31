@@ -23,6 +23,16 @@ function GroceryList() {
   );
 }
 
+function Form(){
+  const [x, setX] = useState("");
+  return(
+    <input
+    value={x}
+    onChange={e => setX(e.target.value)}
+    />
+  )
+}
+
 function Dpp({isLoggedIn}) {
   return (
     <>
