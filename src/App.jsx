@@ -18,6 +18,7 @@ import Bus from './ReactCR';
 import Dpp from './Excersise';
 import MyCars from './ReacList';
 import MyForm from './ReactForm';
+import NameMe from './ReactSF';
 
 function App(){
   const x = "expensive";
@@ -45,6 +46,7 @@ function App(){
       <Goall isGoal={true} />
       <Dpp />
       <MyCars />
+      <NameMe />
     </div>
   )
 }
