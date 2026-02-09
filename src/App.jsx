@@ -19,6 +19,7 @@ import Dpp from './Excersise';
 import MyCars from './ReacList';
 import MyForm from './ReactForm';
 import NameMe from './ReactSF';
+import NameMeM from './ReactMIP';
 
 function App(){
   const x = "expensive";
@@ -47,6 +48,7 @@ function App(){
       <Dpp />
       <MyCars />
       <NameMe />
+      <NameMeM />
     </div>
   )
 }
