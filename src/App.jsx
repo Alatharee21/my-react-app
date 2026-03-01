@@ -20,6 +20,9 @@ import MyCars from './ReacList';
 import MyForm from './ReactForm';
 import NameMe from './ReactSF';
 import NameMeM from './ReactMIP';
+import ChekBox from './ReactCB';
+import RadioBtn from './ReactRadio';
+import Portal from './ReactPort';
 
 function App(){
   const x = "expensive";
@@ -49,6 +52,9 @@ function App(){
       <MyCars />
       <NameMe />
       <NameMeM />
+      <ChekBox />
+      <RadioBtn />
+      <Portal />
     </div>
   )
 }
